@@ -1,0 +1,176 @@
+/* 全页面底色 */
+body {
+	background-color: beige;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+/* 按钮控制背景音乐 */
+#bgmbutton {
+	margin: 0 auto;
+	/* 整体居中*/
+	height: 20px;
+	width: 80px;
+	background-color: #00aa00;
+	color: #fff;
+	font-size: 5px;
+	text-align: center;
+	/* 文本居中*/
+	line-height: 15px;
+	position: center;
+	bottom: 10px;
+	left: 10px;
+	cursor: pointer;
+}
+
+#bgmbutton:hover {
+	background-color: #555;
+}
+
+#bgmimage {
+	position: center;
+}
+
+
+/* 在线计算器 */
+.calculator {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+}
+
+input {
+	display: block;
+	margin: 10px 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: left;
+	grid-column: 1 / span 4;
+}
+
+button {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	grid-row: auto;
+}
+
+/* 行自动摆放,列按照 顺序来摆放*/
+button:nth-child(1) {
+	grid-column: 1;
+}
+
+button:nth-child(2) {
+	grid-column: 1;
+}
+
+button:nth-child(3) {
+	grid-column: 2;
+}
+
+button:nth-child(4) {
+	grid-column: 3;
+}
+
+button:nth-child(5) {
+	grid-column: 4;
+}
+
+button:nth-child(6) {
+	grid-column: 1;
+}
+
+button:nth-child(7) {
+	grid-column: 2;
+}
+
+button:nth-child(8) {
+	grid-column: 3;
+}
+
+button:nth-child(9) {
+	grid-column: 4;
+}
+
+button:nth-child(10) {
+	grid-column: 1;
+}
+
+button:nth-child(11) {
+	grid-column: 2;
+}
+
+button:nth-child(12) {
+	grid-column: 3;
+}
+
+button:nth-child(13) {
+	grid-column: 4;
+}
+
+button:nth-child(14) {
+	grid-column: 1;
+}
+
+button:nth-child(15) {
+	grid-column: 2;
+}
+
+button:nth-child(16) {
+	grid-column: 3;
+}
+
+button:nth-child(17) {
+	grid-column: 4;
+}
+
+
+
+/* vip破解网站 */
+form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+	margin-right: 10px;
+}
+
+input[type="text"] {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button[type="button"] {
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="button"]:hover {
+	background-color: #3e8e41;
+}
